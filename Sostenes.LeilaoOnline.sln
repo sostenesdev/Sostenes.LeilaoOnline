@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{81338C37-2890-4B45-969C-5A6A61F83BEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8C952C6E-5E70-4FF6-8AE5-B3F59E9D6D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sostenes.LeilaoOnline.Core", "Sostenes.LeilaoOnline.Core\Sostenes.LeilaoOnline.Core.csproj", "{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sostenes.LeilaoOnline.ConsoleApp", "Sostenes.LeilaoOnline.ConsoleApp\Sostenes.LeilaoOnline.ConsoleApp.csproj", "{00E33565-ADCE-4BBC-A36B-8531DA35C94A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E33565-ADCE-4BBC-A36B-8531DA35C94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E33565-ADCE-4BBC-A36B-8531DA35C94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E33565-ADCE-4BBC-A36B-8531DA35C94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E33565-ADCE-4BBC-A36B-8531DA35C94A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE13CDD1-40B7-4635-8103-A67E2B0EDC2E} = {81338C37-2890-4B45-969C-5A6A61F83BEF}
+		{00E33565-ADCE-4BBC-A36B-8531DA35C94A} = {8C952C6E-5E70-4FF6-8AE5-B3F59E9D6D61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCF48F8E-37DD-4A02-AC93-7623F6B096BD}
+	EndGlobalSection
+EndGlobal
